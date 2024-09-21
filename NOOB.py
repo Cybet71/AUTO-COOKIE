@@ -478,8 +478,8 @@ def number():
        for psx in user:
           idf = code+psx
           #pwv = ['57273200','59039200','57575751','57575752']
-          #pwv = [idf[:6],psx]
-          pwv = [psx,idf[:6],idf[:7],idf[:8],idf[4:],idf[5:],idf,idf[3:11],'203040','506070','708090','sadiya','i love you','tabassum','112233','223344','445566','667788','778899','009988','00998877','123357']
+          pwv = [idf[:6],psx]
+          #pwv = [psx,idf[:6],idf[:7],idf[:8],idf[4:],idf[5:],idf,idf[3:11],'203040','506070','708090','sadiya','i love you','tabassum','112233','223344','445566','667788','778899','009988','00998877','123357']
           """elif "M2" in mpdx:
                pwv = [psx,idf[:8],idf[:7],idf[:6],idf[5:],'203040','i love you']
           elif "M3" in mpdx:
